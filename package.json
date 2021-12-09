@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/synonyms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only ts/synonyms.ts",
+    "start": "tsc && node js/synonyms.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "csv-reader": "^1.0.8",
+    "dom-parser": "^0.1.6",
+    "events": "^3.3.0",
+    "jsdom": "^18.1.1",
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/puppeteer": "^5.4.4",
+    "puppeteer-tsd": "^0.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
